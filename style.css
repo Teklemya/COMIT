@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 2rem;
+}
+nav{
+    margin-left: 0px;
+    padding-left: 1200px;
+    position: sticky;
+    top: 0px;
+background-color: aqua;
+    z-index: 1;
+   max-height: 50px;
+   
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+}
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+  overflow-x: scroll;
+  
+}
+th, td {
+  padding: 0.25rem;
+}
+tr.red th {
+  background: red;
+  color: white;
+}
+tr.green th {
+  background: green;
+  color: white;
+}
+tr.purple th {
+  background: purple;
+  color: white;
+}
+th {
+  background: white;
+  position: sticky;
+  top: 50px; /* Don't forget this, required for the stickiness */
+  
+  
+}
+/*
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: #961e1e;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  .sticky-header {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+  }
